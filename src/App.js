@@ -16,6 +16,15 @@ import Listing from './pages/Listing'
 import Contact from './pages/Contact'
 
 function App() {
+  // console.log(`
+  //  authDomain: ${process.env.REACT_APP_authDomain},
+  //  projectId: ${process.env.REACT_APP_projectId},
+  //  apiKey: ${process.env.REACT_APP_apiKey},
+  //  storageBucket: ${process.env.REACT_APP_storageBucket},
+  //  messagingSenderId: ${process.env.REACT_APP_messagingSenderId},
+  //  appId: ${process.env.REACT_APP_appId},
+  //  measurementId: ${process.env.REACT_APP_measurementId}
+  // `)
   return (
     <>
       <Router>
